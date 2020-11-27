@@ -1,0 +1,80 @@
+.moreFa .fabox{
+	width: 350px;
+	height: 360px;
+	background-color: #FFFFFF;
+	/* box-shadow:0 0 9px 5px rgba(49,32,0,0.1); */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* margin-bottom: ; */
+
+}
+.fabox:nth-child(2n) {
+	background-color: #F6F8FB;
+}
+.fabox:hover{
+	box-shadow:0 0 9px 5px rgba(1,29,58,0.1);
+	z-index: 21;
+}
+.moreFa .fabox img{
+	width: 75px;
+	height: 76px;
+}
+.moreFa .fabox .name{
+	color: #373737;
+	font-size: 36px;
+	margin: 15px 0;
+}
+.moreFa .fabox .bts{
+	font-size: 18px;
+	color: #373737;
+	line-height: 10px;
+}
+.moreFa .boxs{
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.bgs{
+	background-color: red;
+}
+.promote{
+	width: 100%;
+	height: 517px;
+	background-image: url(../img/facility/bt1.png);
+}
+.promote .promote-mores{
+	display: flex;
+	height: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+.promote .promote-mores .promote-mores-top .promote-mores-top-name1{
+	font-size: 48px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.promote .promote-mores .promote-mores-top .promote-mores-top-name2{
+	font-size: 28px;
+	color: #FFFFFF;
+	text-align: center;
+}
+.promote .promote-mores .promote-mores-center{
+	margin: 35px 0;
+}
+.promote .promote-mores .promote-mores-center img{
+	width: 51px;
+	height: 47px;
+}
+.promote .promote-mores .promote-mores-bot p{
+	text-align: center;
+	font-size: 18px;
+	line-height: 8px;
+}
+.bott{
+	margin-bottom: 70px;
+}

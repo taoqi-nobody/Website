@@ -1,0 +1,333 @@
+body{
+	background-color: #FFFFFF;
+	/* overflow: hidden; */
+	margin: 0px;
+	padding: 0;
+}
+.content{
+	width: 1080px;
+	height: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	
+}
+
+/* 导航栏 */
+.navbar{
+	padding-top: 0px;
+}
+.navbar-right .bg {
+	background-color: #20AD9E;
+	color: white;
+}
+.navbar-cents{
+	width: 100%;
+	/* background-color: white; */
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 0px;
+}
+.navbar-left{
+	display: flex;
+	align-items: center;
+}
+.navbar-left img{
+	width: 42px;
+	height: 70px;
+	margin-right: 15px;
+}
+.navbar-left .img-right .title{
+	font-size: 24px;
+}
+.navbar-left .img-right .text{
+	font-size: 20px;
+}
+.navbar-right{
+	display: flex;
+	
+}
+.navbar-right a{
+	text-decoration: none;
+	/* color: black; */
+}
+.navbar-right div{
+	/* background-color: white; */
+	font-size: 24px;
+	width: 120px;
+	height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #000000;
+	
+}
+.navbar-right div:hover{
+	background-color: #20AD9E;
+	color: white;
+}
+/* .navbar-right a:hover{
+	color: white;
+} */
+.direction{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* 大型的轮播图 */
+/* .banner .swiper-wrapper .swiper-slide img{
+	width: 100%;
+	height: 876px;
+	
+} */
+.swiper-container {
+    width: 100%;
+    height: 876px;
+}
+/* .swiper-container{
+	width: 100%;
+	height: 876px;
+} */
+.lineimg{
+	position: relative;
+	left: 0;
+	right: 0;
+}
+.lineimg img{
+	width: 100%;
+	height: 876px;
+	margin: 0 auto;
+}
+.linewrite{
+	position: absolute;
+	top: 150px;
+	left: 280px;
+	z-index: 22;
+}
+.linewrite .title p{
+	font-size: 75px;
+	color: white;
+	line-height: 30px;
+}
+.linewrite .smalltitle{
+	margin-top: -16px;
+	font-size: 30px;
+	color: white;
+	line-height: 10px;
+}
+.linewrite .linewrite-btn{
+	width: 292px;
+	height: 84px;
+	background-color: #20AD9E;
+	color: white;
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+	text-align: center;
+	font-size: 27px;
+	/* margin-top: 120px; */
+	border-radius: 42px;
+	/* font-family: PingFangSC-Regular; */
+	position:absolute;
+	top: 268px;
+	left: 15px;
+	/* animation: myfirst 2s linear; */
+	transition:all 1s;
+}
+.linewrite-btn:hover{
+	transform: scale(1.2);
+}
+/* @keyframes myfirst
+  {
+      0%{width: 0;height: 0;}
+      50%  {width: 250px;height: 250px;}
+      100% {width: 500px;height: 500px;}
+  } */
+
+/* 小型轮播图 */
+.banner .swiper-wrapper .swiper-slide .lineimgs img{
+	width: 100%;
+	height: 380px;
+	
+} 
+.swiper-containers{
+	width: 100%;
+	height: 380px;
+	overflow: hidden;
+}
+.lineimgs{
+	position: relative;
+}
+.linewrites{
+	position: absolute;
+	top: 20px;
+	left: 300px;
+	z-index: 22;
+}
+.lef{
+	margin-left: 55px;
+}
+.linewrites .title p{
+	font-size: 60px;
+	color: white;
+	line-height: 10px;
+}
+.linewrites .title1 p{
+	font-size: 48px;
+	color: white;
+	line-height: 10px;
+}
+.linewrites .smalltitle{
+	margin-top: -5px;
+	font-size: 24px;
+	color: white;
+	line-height: 10px;
+}
+.linewrites .linewrite-btn{
+	width: 292px;
+	height: 84px;
+	background-color: #20AD9E;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 27px;
+	margin-top: 42px;
+	border-radius: 42px;
+	font-family: PingFangSC-Regular;
+	animation: btn 2s both linear;
+}
+@keyframes btn{
+	{
+		0%{
+			width: 0;
+			height: 0;
+		}
+		50%{
+			width: 145px;
+			height: 42px;
+		}
+		100%{
+			width: 292px;
+			height: 84px;
+		}
+	}
+	
+}
+a{
+	text-decoration: none;
+}
+
+/* 重复标题 */
+
+.repeatTitle{
+	color: #010101;
+	font-size: 48px;
+	margin-top: 40px;
+	text-align: center;
+}
+.repeatSmallTitle{
+	font-size: 28px;
+	color: #969696;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/* 底部盒子样式 */
+
+.imgconts{
+	margin-top: 63px;
+	display: flex;
+	justify-content: space-between;
+}
+.boxtex{
+	width: 248px;
+	height: 366px;
+	border:1px solid #E2E2E2;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: space-between; */
+}
+.boxtex img{
+	width: 248px;
+	height: 249px;
+}
+.boxtex-tes{
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	flex-direction: column;
+	align-items: center;
+	/* justify-content: center; */
+}
+.boxtex-t{
+	font-size: 16px;
+	margin-top: 20px;
+}
+.boxtex-text{
+	width: 100%;
+	height: 100%;
+	font-size: 12px;
+	/* margin-top: 10px; */
+	line-height: 5px;
+	text-align: center;
+	/* display: flex; */
+	/* flex-direction: column; */
+	/* align-items: center; */
+	color: #999999;
+	/* justify-content: flex-start; */
+	/* align-items: center; */
+	/* justify-content: center; */
+}
+/* .colors{
+	background-color: #4DBDB1;
+} */
+.boxtex :hover{
+	background-color: #4DBDB1;
+	color: #FFFFFF;
+}
+
+/* 底部联系方式 */
+.hr1{
+	margin: 70px auto 0px auto;
+	width: 80%;
+	height: 1px;
+	border-bottom: 2px dashed #eee;
+}
+.hr2{
+	margin: 5px auto 50px auto;
+	width: 100%;
+	height: 1px;
+	border-bottom: 2px dashed #eee;
+}
+
+.wxfangs{
+	display: flex;
+	justify-content: space-around;
+	
+}
+.wxfangs .left{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+.wxfangs .left div{
+	margin-top: 15px;
+	font-size: 24px;
+}
+.wxfangs .left img{
+	width: 200px;
+	height: 200px;
+}
+.copyright{
+	margin-top: 100px;
+	text-align: center;
+}
+.bos{
+	margin-bottom: 60px;
+}

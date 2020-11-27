@@ -1,0 +1,141 @@
+.price-table{
+	margin-top: 50px;
+}
+.price-header{
+	width: 99%;
+	margin: 10px auto;
+	margin-bottom: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* border: 1px solid #eee; */
+	box-shadow:0 0 9px 3px rgba(49,32,0,0.1);
+}
+
+.price-header-col{
+	width: 33.3%;
+	line-height: 2;
+	padding: 36px 0;
+	/* text-align: center; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	/* background-color: #20AD9E; */
+}
+.headeractive{
+	background-color: #20AD9E; 
+	color: #FFFFFF;
+}
+.price-header-col p{
+	margin: 0;
+	padding: 0;
+}
+.aaas{
+	font-size: 11px;
+	color: #999999;
+	margin-left: 10px;
+}
+.bbb{
+	color: #FFFFFF;
+}
+.price-header .shu{
+	width: 2px;
+	height: 50px;
+	background-color: #eee;
+}
+.activebg{
+	background-color: #20AD9E;
+	color: #FFFFFF;
+}
+.price-box{
+	margin: 0px auto;
+	width: 1080px;
+}
+.linebox{
+	min-height: 90px;
+	display: flex;
+/* 	align-items: center;
+	justify-content: center; */
+}
+.price-box-left{
+	text-align: center;
+	width: 40%;
+	background-color: #20AD9E;
+	font-size: 18px;
+	color: #FFFFFF;
+	
+	
+}
+ .dir{
+	 display: flex;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center;
+ }
+/* .aaa{
+	width: 40%;
+	background-color: #20AD9E;
+	font-size: 30px;
+}
+.bbbb{
+	font-size: 30px;
+	width: 60%;
+} */
+
+/* v-for="(item,index) in leftDatas" 
+:key="index" */
+.price-box-right{
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	border: 1px solid #eee;
+}
+.ss1{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.price-box-right-tx{
+	width: 300px;
+	font-size: 18px;
+	text-align: center;
+	padding: 20px 0;
+	/* margin: 20px auto; */
+	
+}
+.price-box-right:last-child .price-box-right-tx{
+	width: 500px;
+	font-size: 18px;
+	text-align: center;
+	padding: 20px 0;
+}
+
+/* .ss1:last-child {
+	width: 500px;
+} */
+/* .price-box-right div:last-child{
+	width: 500px;
+} */
+.price-box-right .aaa{
+	width: 23px;
+	height: 17px;
+	display: block;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+.mylist{
+	width: 250px;
+	line-height:70px;
+	text-align: center;
+	background-color: #20AD9E;
+	color: white;
+	margin: 50px auto;
+	border-radius: 15px;
+	
+}

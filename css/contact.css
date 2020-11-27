@@ -1,0 +1,67 @@
+.banner .swiper-wrapper .swiper-slide .lineimgss img{
+	width: 100%;
+	height: 720px;
+	
+} 
+.swiper-containers2{
+	width: 100%;
+	height: 720px;
+	overflow: hidden;
+}
+.lineimgss{
+	position: relative;
+}
+.linewritess{
+	position: absolute;
+	top: 46%;
+	left: 38%;
+	z-index: 22;
+}
+.linewritess .line1 {
+	text-align: center;
+	font-size: 48px;
+	color: #FFFFFF;
+}
+.linewritess .line2{
+	text-align: center;
+	font-size: 48px;
+	color: #FFFFFF;
+}
+.linewritess .line3{
+	
+	margin: 50px auto;
+	width: 89px;
+	height: 3px;
+	background: #FFFFFF;
+}
+
+/* --------- */
+.mode{
+	padding: 10px 20px;
+}
+
+.mode .possessions .fangs{
+	width: 100%;
+	margin-top: 40px;
+	font-size: 35px;
+	color: #333333;
+}
+.mode .possessions .title{
+	display: flex;
+	margin-top: 40px;
+}
+.mode .possessions .title img{
+	width: 30px;
+	height: 35px;
+}
+.mode .possessions .title .right{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	line-height: 30px;
+	margin-left: 30px;
+}
+.botts{
+	width: 100%;
+	padding-bottom: 100px;
+}
