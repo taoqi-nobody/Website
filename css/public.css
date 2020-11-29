@@ -12,10 +12,22 @@ body{
 	position: relative;
 	
 }
+@mediascreenand(max-device-width:800px){
+	.content{
+		width: 100%;
+		height: 100%;
+		margin: 0 auto;
+		overflow: hidden;
+		position: relative;
+	}
+	.banner{
+		width: 100%;
+	}
+}
 
 /* 导航栏 */
 .navbar{
-	padding-top: 0px;
+	padding: 0 20px;
 }
 .navbar-right .bg {
 	background-color: #20AD9E;
@@ -84,7 +96,7 @@ body{
 } */
 .swiper-container {
     width: 100%;
-    height: 876px;
+    max-height: 876px;
 }
 /* .swiper-container{
 	width: 100%;
@@ -97,23 +109,23 @@ body{
 }
 .lineimg img{
 	width: 100%;
-	height: 876px;
+	height: 100%;
 	/* margin: 0 auto; */
 }
 .linewrite{
 	position: absolute;
-	top: 150px;
-	left: 280px;
+	top: 15%;
+	left: 12%;
 	z-index: 22;
 }
 .linewrite .title p{
-	font-size: 75px;
+	font-size: 50px;
 	color: white;
 	line-height: 30px;
 }
 .linewrite .smalltitle{
 	margin-top: -16px;
-	font-size: 30px;
+	font-size: 25px;
 	color: white;
 	line-height: 10px;
 }
@@ -126,7 +138,7 @@ body{
 	align-items: center;
 	justify-content: center;
 	font-size: 27px;
-	margin-top: 120px;
+	margin-top: 50px;
 	border-radius: 42px;
 }
 /* .linewrite-btn:hover{
@@ -156,19 +168,19 @@ body{
 .linewrites{
 	position: absolute;
 	top: 20px;
-	left: 300px;
+	left: 10%;
 	z-index: 22;
 }
 .lef{
 	margin-left: 55px;
 }
 .linewrites .title p{
-	font-size: 60px;
+	font-size: 50px;
 	color: white;
 	line-height: 10px;
 }
 .linewrites .title1 p{
-	font-size: 48px;
+	font-size: 50px;
 	color: white;
 	line-height: 10px;
 }
@@ -231,7 +243,7 @@ a{
 /* 底部盒子样式 */
 
 .imgconts{
-	margin-top: 63px;
+	margin: 80px 30px;
 	display: flex;
 	justify-content: space-between;
 }

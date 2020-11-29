@@ -1,6 +1,6 @@
-.banner .swiper-wrapper .swiper-slide .lineimgss img{
+.lineimgss img{
 	width: 100%;
-	height: 720px;
+	height: 100%;
 	
 } 
 .swiper-containers2{
@@ -13,7 +13,7 @@
 }
 .linewritess{
 	position: absolute;
-	top: 46%;
+	top: 40%;
 	left: 38%;
 	z-index: 22;
 }
